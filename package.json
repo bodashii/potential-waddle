@@ -1,0 +1,20 @@
+{
+  "name": "potential-waddle",
+  "version": "1.0.0",
+  "description": "A portfolio of myself using HTML5, CSS3, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddnty/potential-waddle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddnty/potential-waddle/issues"
+  },
+  "homepage": "https://github.com/maddnty/potential-waddle#readme"
+}
