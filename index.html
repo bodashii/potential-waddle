@@ -1,52 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nicolas Young's Full Stack Web Developer Portfolio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nicolas Young's Full Stack Web Developer Portfolio"
+    />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Nicolas Young - Full Stack Dev</title>
-</head>
-<body>
-    <h1>Nicolas Young</h1>
-    <p>Full stack developer.</p>
+  </head>
+  <body>
+    <section class="hero">
+      <header>
+        <h1>Nicolas Young</h1>
+        <picture>
+          <source media="(min-width:400px)" srcset="/images/himg-sm.webp" />
+          <source media="(max-width:600px)" srcset="/images/himg-lg.webp" />
+          <img  src="/images/himg.webp" alt="Nicolas Young" width="auto" />
+        </picture>
+        <p>Full stack developer.</p>
+      </header>
+    </section>
 
     <nav>
-        <ul>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
+    <div id="content"></div>
+
+
+    <img height="200" width="200" id="logo" alt="logo" src="/images/logo.webp" />
     <main>
-        <section id="about">
-            <h2>About</h2>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <h3>Phat News</h3>
-                </li>
-                <li>
-                    <h3>Shelf-Life</h3>
-                </li>
-                <li>
-                    <h3>ourGlass</h3>
-                </li>
-            </ul>
-        </section>
+      <section id="about">
+        <h2>whoami?</h2>
+        <p>
+          A persistent "get down to the bottom of it" problem solver.
+          I don't have to know why something works. I want to know!
+        </p>
+        <p>
+          <b>const mernStack = function(Program, Code, Design, Develop) { return true; }</b>
+        </p>
+        <p>
+          It's a blessing to have something new to learn everyday. Since day
+          one of my journey I keep finding myself excited that there's always
+          a different or more efficient solution.
+        </p>
+        <q>Becoming a certified full stack developer helped me become a better
+          me.
+        </q>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Phat News</h3>
+          </li>
+          <li>
+            <h3>Shelf-Life</h3>
+          </li>
+          <li>
+            <h3>ourGlass</h3>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
-        <h4 id="contact">Contact</h4>
-        <ul>
-            <li>git</li>
-            <li>twitter</li>
-            <li>linked in</li>
-        </ul>
-        <address><a href="mailto:n.colasyoung@gmail.com">n.colasyoung@gmail.com</a></address>
+      <h4 id="contact">Contact</h4>
+      <ul>
+        <li>git</li>
+        <li>twitter</li>
+        <li>linked in</li>
+      </ul>
+      <address>
+        <a href="mailto:n.colasyoung@gmail.com">n.colasyoung@gmail.com</a>
+      </address>
     </footer>
-</body>
+  </body>
 </html>
